@@ -70,7 +70,7 @@ def capture(save_path, filename):
 def timelapse():
     #Define the time interval during daylight and nighttime here (minutes):
     day_interval = 5
-    night_interval = 1
+    night_interval = 10
     sunrise_sunset_interval = 2
 
     #Set the local sunrise/sunset hours (24 hr format):
